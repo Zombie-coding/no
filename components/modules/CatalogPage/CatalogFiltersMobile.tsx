@@ -70,7 +70,7 @@ const CatalogFiltersMobile = ({
     >
       <div className={styles.catalog__bottom__filters__inner}>
         <FiltersPopupTop
-          resetBtnText="Сбросить все"
+          resetBtnText="Nullida kõik"
           title="Фильтры"
           resetFilters={resetFilters}
           resetFilterBtnDisabled={resetFilterBtnDisabled}
@@ -81,7 +81,7 @@ const CatalogFiltersMobile = ({
             className={`${styles.filters__manufacturer__btn} ${darkModeClass}`}
             onClick={handleOpenBoilers}
           >
-            Производитель котлов
+            Tootja
           </button>
           <FiltersPopup
             title="Производитель котлов"
@@ -100,10 +100,10 @@ const CatalogFiltersMobile = ({
             className={`${styles.filters__manufacturer__btn} ${darkModeClass}`}
             onClick={handleOpenParts}
           >
-            Производитель запчастей
+            Varuosade tootja
           </button>
           <FiltersPopup
-            title="Производитель запчастей"
+            title="Varuosade tootja"
             resetFilterBtnDisabled={!isAnyPartsManufacturerChecked}
             updateManufacturer={updatePartsManufacturer}
             setManufacturer={setPartsManufacturers}
@@ -116,7 +116,7 @@ const CatalogFiltersMobile = ({
         </div>
         <div className={styles.filters__price}>
           <Accordion
-            title="Цена"
+            title="Hind"
             titleClass={`${styles.filters__manufacturer__btn} ${darkModeClass}`}
             hideArrowClass={styles.hide_arrow}
             isMobileForFilters={isMobile}
@@ -144,7 +144,7 @@ const CatalogFiltersMobile = ({
               style={{ top: 6, left: '47%' }}
             />
           ) : (
-            'Показать'
+            'Näidatakse'
           )}
         </button>
       </div>

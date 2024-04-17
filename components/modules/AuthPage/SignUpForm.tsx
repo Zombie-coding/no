@@ -53,7 +53,7 @@ const SignUpForm = ({ switchForm }: { switchForm: () => void }) => {
       onSubmit={handleSubmit(onSubmit)}
     >
       <h2 className={`${styles.form__title} ${styles.title} ${darkModeClass}`}>
-        Создать аккаунт
+        Konto loomine
       </h2>
       <NameInput register={register} errors={errors} />
       <EmailInput register={register} errors={errors} />

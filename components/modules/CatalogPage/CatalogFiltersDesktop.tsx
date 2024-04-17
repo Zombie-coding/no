@@ -34,19 +34,19 @@ const CatalogFiltersDesktop = ({
       <h3
         className={`${styles.catalog__bottom__filters__title} ${darkModeClass}`}
       >
-        Фильтры
+        Filtrid
       </h3>
       <div className={styles.filters__boiler_manufacturers}>
         <FilterManufacturerAccordion
           manufacturersList={boilerManufacturers}
-          title="Katla tootja"
+          title="Tootja"
           updateManufacturer={updateBoilerManufacturer}
           setManufacturer={setBoilerManufacturers}
         />
       </div>
       <div className={styles.filters__price}>
         <Accordion
-          title="Цена"
+          title="Hind"
           titleClass={`${styles.filters__manufacturer__btn} ${darkModeClass}`}
           arrowOpenClass={styles.open}
         >
@@ -88,7 +88,7 @@ const CatalogFiltersDesktop = ({
           disabled={resetFilterBtnDisabled}
           onClick={resetFilters}
         >
-          Сбросить
+          Reset
         </button>
       </div>
     </div>

@@ -27,18 +27,18 @@ const FeedbackForm = () => {
     setSpinner(true)
     emailjs
       .sendForm(
-        'service_4406d2p',
-        'template_88thtrg',
+        'service_z9jl7q5',
+        'template_zp9t20b',
         formRef.current,
-        'ARtfb1bp4SELm6yXa'
+        'fdQI-EMSIIL24yR71'
       )
       .then((result) => {
         setSpinner(false)
-        toast.success(`Сообщение отправлено! ${result.text}`)
+        toast.success(`Sõnum on saadetud! ${result.text}`)
       })
       .catch((error) => {
         setSpinner(false)
-        toast.error(`Что-то пошло не так! ${error.text}`)
+        toast.error(`Midagi on läinud valesti! ${error.text}`)
       })
 
     formRef.current.reset()
@@ -47,7 +47,7 @@ const FeedbackForm = () => {
   return (
     <div className={`${styles.feedback_form} ${darkModeClass}`}>
       <h3 className={`${styles.feedback_form__title} ${darkModeClass}`}>
-        Форма обратной связи
+      Tagasiside vorm
       </h3>
       <form
         ref={formRef}
@@ -82,7 +82,7 @@ const FeedbackForm = () => {
                 style={{ top: '6px', left: '47%' }}
               />
             ) : (
-              'Отправить сообщение'
+              'Saada sõnum'
             )}
           </button>
         </div>

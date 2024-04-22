@@ -93,7 +93,7 @@ const FilterSelect = ({
   return (
     <Select
       placeholder="Ma otsin..."
-      value={categoryOption || createSelectOption('Сначала дешевые')}
+      value={categoryOption || createSelectOption('Esiteks odavad')}
       onChange={handleSortOptionChange}
       styles={{
         ...selectStyles,

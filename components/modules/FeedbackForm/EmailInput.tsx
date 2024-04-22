@@ -7,12 +7,12 @@ const EmailInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
     <input
       className={styles.feedback_form__form__input}
       type="email"
-      placeholder="ivan@gmail.com"
+      placeholder="voinikoo.ee@gmail.com"
       {...register('email', {
-        required: 'Введите Email!',
+        required: 'Sisestage Email!',
         pattern: {
           value: /\S+@\S+\.\S+/,
-          message: 'Неправильный Email!',
+          message: 'Vale Email!',
         },
       })}
     />

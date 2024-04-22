@@ -27,7 +27,7 @@ const FeedbackForm = () => {
     setSpinner(true)
     emailjs
       .sendForm(
-        'service_4406d2p',
+        'service_4406d2',
         'template_88thtrg',
         formRef.current,
         'ARtfb1bp4SELm6yXa'

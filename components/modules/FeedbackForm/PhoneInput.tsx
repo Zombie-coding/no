@@ -15,7 +15,7 @@ const PhoneInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
           message: 'Lubamatu väärtus',
         },
         minLength: 11,
-        maxLength: 11,
+        maxLength: 12,
       })}
     />
     {errors.phone && (

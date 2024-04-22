@@ -6,7 +6,7 @@ const PhoneInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
     <span>Telefon *</span>
     <input
       className={styles.feedback_form__form__input}
-      placeholder="+327 55555555"
+      placeholder="327 55555555"
       type="tel"
       {...register('phone', {
         required: 'Sisesta telefon!',

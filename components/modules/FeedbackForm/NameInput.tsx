@@ -11,7 +11,7 @@ const NameInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
       {...register('name', {
         required: 'Sisestage nimi!',
         pattern: {
-          value: /^[а-яА-Яa-zA-ZёЁ]*$/,
+          value: /^[а-яА-Яa-zA-ZёЁ\s]*$/,
           message: 'Vastuvõetamatu väärtus',
         },
         minLength: 2,

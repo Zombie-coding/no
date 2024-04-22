@@ -27,7 +27,7 @@ const FiltersPopup = ({
     >
       <div className={styles.filters__popup__inner}>
         <FiltersPopupTop
-          resetBtnText="Сбросить"
+          resetBtnText="Reset"
           title={title as string}
           resetFilterBtnDisabled={resetFilterBtnDisabled}
           resetFilters={resetAllManufacturers}
@@ -47,13 +47,13 @@ const FiltersPopup = ({
           onClick={applyFilters}
           style={{ marginBottom: 12 }}
         >
-          Показать
+          Näidata
         </button>
         <button
           className={styles.filters__actions__reset}
           onClick={handleClosePopup}
         >
-          Назад
+          Tagasi
         </button>
       </div>
     </div>

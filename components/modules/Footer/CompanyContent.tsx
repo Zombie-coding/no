@@ -31,4 +31,3 @@ const CompanyContent = () => (
 )
 
 export default CompanyContent
-

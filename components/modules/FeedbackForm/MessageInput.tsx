@@ -16,10 +16,10 @@ const MessageInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
       <span className={styles.error_alert}>{errors.message?.message}</span>
     )}
     {errors.message && errors.message.type === 'minLength' && (
-      <span className={styles.error_alert}>Минимум 20 символов!</span>
+      <span className={styles.error_alert}>Minimaalselt 20 tähemärki!</span>
     )}
     {errors.message && errors.message.type === 'maxLength' && (
-      <span className={styles.error_alert}>Не более 300 символов!</span>
+      <span className={styles.error_alert}>Mitte rohkem kui 300 märki!</span>
     )}
   </label>
 )

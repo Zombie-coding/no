@@ -17,26 +17,26 @@ const CartAlert = ({ count, closeAlert }: ICartAlertProps) => {
     }
 
     if (count.endsWith('2') || count.endsWith('3') || count.endsWith('4')) {
-      return 'kaubad'
+      return 'kauba'
     }
 
-    return 'Kaubad'
+    return 'kaubad'
   }
 
   return (
     <>
       <div className={`${styles.dashboard__alert__left} ${darkModeClass}`}>
         <span>
-         Korvis {count} {showCountMessage(`${count}`)}
+        Korvis {count} {showCountMessage(`${count}`)}
         </span>
-        <span>Summa eest {formatPrice(totalPrice)} €</span>
+        <span>Summa  {formatPrice(totalPrice)} €</span>
       </div>
       <div className={styles.dashboard__alert__right}>
         <Link href="/order" legacyBehavior passHref>
-          <a className={styles.dashboard__alert__btn_cart}>Mine ostukorvi</a>
+          <a className={styles.dashboard__alert__btn_cart}>Ostukorvis</a>
         </Link>
         <Link href="/order" legacyBehavior passHref>
-          <a className={styles.dashboard__alert__btn_order}>Tee tellimus</a>
+          <a className={styles.dashboard__alert__btn_order}>Teha tellimus</a>
         </Link>
       </div>
       <button

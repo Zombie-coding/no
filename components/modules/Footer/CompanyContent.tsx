@@ -11,14 +11,14 @@ const CompanyContent = () => (
     <li className={styles.footer__top__item__list__item}>
       <Link href="/contacts" passHref legacyBehavior>
         <a className={styles.footer__top__item__list__item__link}>
-          Обратная связь
+         Обратная связь
         </a>
       </Link>
     </li>
     <li className={styles.footer__top__item__list__item}>
       <Link href="/wholesale-buyers" passHref legacyBehavior>
         <a className={styles.footer__top__item__list__item__link}>
-          Оптовым покупателям
+         Оптовым покупателям
         </a>
       </Link>
     </li>

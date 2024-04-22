@@ -11,11 +11,11 @@ const PhoneInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
       {...register('phone', {
         required: 'Sisesta telefon!',
         pattern: {
-          value: /^\d*[1-9]\d*$/,
+          value: /^\d*[1-12]\d*$/,
           message: 'Vastuvõetamatu väärtus',
         },
         minLength: 12,
-        maxLength: 13,
+        maxLength: 12,
       })}
     />
     {errors.phone && (

@@ -3,29 +3,29 @@ import styles from '@/styles/feedbackForm/index.module.scss'
 
 const PhoneInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
   <label className={`${styles.feedback_form__form__label} ${darkModeClass}`}>
-    <span>Телефон *</span>
+    <span>Telefon *</span>
     <input
       className={styles.feedback_form__form__input}
-      placeholder="+7 999 999 99 99"
+      placeholder="+327 55555555"
       type="tel"
       {...register('phone', {
-        required: 'Введите телефон!',
+        required: 'Sisesta telefon!',
         pattern: {
           value: /^\d*[1-9]\d*$/,
-          message: 'Недопустимое значение',
+          message: 'Vastuvõetamatu väärtus',
         },
-        minLength: 11,
-        maxLength: 11,
+        minLength: 12,
+        maxLength: 13,
       })}
     />
     {errors.phone && (
       <span className={styles.error_alert}>{errors.phone?.message}</span>
     )}
     {errors.phone && errors.phone.type === 'minLength' && (
-      <span className={styles.error_alert}>Минимум 11 цифр!</span>
+      <span className={styles.error_alert}>Vähemalt 12 kohta!</span>
     )}
     {errors.phone && errors.phone.type === 'maxLength' && (
-      <span className={styles.error_alert}>Не более 11 цифр!</span>
+      <span className={styles.error_alert}>Mitte üle 12 numbri!</span>
     )}
   </label>
 )

@@ -6,16 +6,16 @@ const PhoneInput = ({ register, errors, darkModeClass }: IFeedbackInput) => (
     <span>Telefon *</span>
     <input
       className={styles.feedback_form__form__input}
-      placeholder="327 55555555"
+      placeholder="55555555"
       type="tel"
       {...register('phone', {
         required: 'Sisesta telefon!',
         pattern: {
-          value: /^\d*[1-11]\d*$/,
+          value: /^\d*[1-8]\d*$/,
           message: 'Lubamatu väärtus',
         },
-        minLength: 11,
-        maxLength: 11,
+        minLength: 8,
+        maxLength: 8,
       })}
     />
     {errors.phone && (

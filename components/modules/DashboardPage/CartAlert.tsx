@@ -29,7 +29,7 @@ const CartAlert = ({ count, closeAlert }: ICartAlertProps) => {
         <span>
           Korvis {count} {showCountMessage(`${count}`)}
         </span>
-        <span>Summa eest {formatPrice(totalPrice)} P</span>
+        <span>Summa eest {formatPrice(totalPrice)} €</span>
       </div>
       <div className={styles.dashboard__alert__right}>
         <Link href="/order" legacyBehavior passHref>

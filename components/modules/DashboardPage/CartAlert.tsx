@@ -13,30 +13,30 @@ const CartAlert = ({ count, closeAlert }: ICartAlertProps) => {
 
   const showCountMessage = (count: string) => {
     if (count.endsWith('1')) {
-      return 'kaup'
+      return 'товар'
     }
 
     if (count.endsWith('2') || count.endsWith('3') || count.endsWith('4')) {
-      return 'kauba'
+      return 'товара'
     }
 
-    return 'kaubad'
+    return 'товаров'
   }
 
   return (
     <>
       <div className={`${styles.dashboard__alert__left} ${darkModeClass}`}>
         <span>
-        Korvis {count} {showCountMessage(`${count}`)}
+          В корзине {count} {showCountMessage(`${count}`)}
         </span>
-        <span>Summa  {formatPrice(totalPrice)} €</span>
+        <span>На сумму {formatPrice(totalPrice)} P</span>
       </div>
       <div className={styles.dashboard__alert__right}>
         <Link href="/order" legacyBehavior passHref>
-          <a className={styles.dashboard__alert__btn_cart}>Ostukorvis</a>
+          <a className={styles.dashboard__alert__btn_cart}>Перейти в корзину</a>
         </Link>
         <Link href="/order" legacyBehavior passHref>
-          <a className={styles.dashboard__alert__btn_order}>Teha tellimus</a>
+          <a className={styles.dashboard__alert__btn_order}>Оформить заказ</a>
         </Link>
       </div>
       <button

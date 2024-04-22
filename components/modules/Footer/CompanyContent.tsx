@@ -24,7 +24,7 @@ const CompanyContent = () => (
     </li>
     <li className={styles.footer__top__item__list__item}>
       <Link href="/contacts" passHref legacyBehavior>
-        <a className={styles.footer__top__item__list__item__link}>Контакты</a>
+        <a className={styles.footer__top__item__list__item__link}>Kontaktandmed</a>
       </Link>
     </li>
   </ul>

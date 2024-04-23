@@ -5,13 +5,13 @@ const OnlineStoreContent = () => (
   <ul className={styles.footer__top__item__list}>
     <li className={styles.footer__top__item__list__item}>
       <Link href="/catalog" passHref legacyBehavior>
-        <a className={styles.footer__top__item__list__item__link}>Каталог</a>
+        <a className={styles.footer__top__item__list__item__link}>Kataloog</a>
       </Link>
     </li>
     <li className={styles.footer__top__item__list__item}>
       <Link href="/shipping-payment" passHref legacyBehavior>
         <a className={styles.footer__top__item__list__item__link}>
-          Доставка и оплата
+          Tarne ja maksmine
         </a>
       </Link>
     </li>

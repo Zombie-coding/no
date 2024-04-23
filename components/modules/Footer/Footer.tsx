@@ -131,7 +131,7 @@ const Footer = () => {
                 <li className={styles.footer__bottom__block__social__item}>
                   <a
                     href="#"
-                    className={styles.footer__bottom__block__social__item_vk}
+                    className={styles.footer__bottom__block__social__item_}
                   />
                 </li>
                 <li className={styles.footer__bottom__block__social__item}>

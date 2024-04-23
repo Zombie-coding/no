@@ -16,10 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Компания &quot;АкваТермикс&quot; предлагает Вам запасные части для
-              европейских, корейских и отечественных газовых и электрических
-              котлов. 99% запчастей представленных на сайте постоянно
-              поддерживаются в наличии на нашем складе.
+              Компания Vokinikoo - teie usaldusväärne partner tehnoloogia ja kodumugavuste maailmas. Meie eesmärk on tagada meie klientidele kõik vajalik: alates kõige kaasaegsemast elektroonikast kuni usaldusväärsete varuosadeni ja stiilsete sisekujunduselementideni. Meie missioon on muuta teie elu lihtsamaks, mugavamaks ja põnevamaks. Usaldage meid ja saate juurdepääsu parimatele tehnoloogiatele ja kodusele mugavusele!.
             </p>
             <p>
               Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в

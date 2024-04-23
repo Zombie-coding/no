@@ -16,7 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Компания Vokinikoo.
+              Компания.
             </p>
             <p>
               Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в

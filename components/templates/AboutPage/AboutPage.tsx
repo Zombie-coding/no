@@ -16,7 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Ettevõtte &quot;Voinikooee&quot;
+              Ettevõtte &quot;&quot;
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

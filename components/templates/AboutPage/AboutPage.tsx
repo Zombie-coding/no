@@ -16,10 +16,8 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Tere tulemast innovatsioonide maailma Vokinikoo juures! 
-              Meie valikust leiad laia valiku elektroonikat, varuosi ja kodutarbeid. 
-              Otsid siis viimast nutitelefoni, remondiosasid oma seadmele või 
-              funktsionaalseid esemeid koju, oleme siin, et aidata sul oma ideid ellu viia!
+              Etevõte &quot;Voinikoo&quot; esitab teile Esektri ja kodu kaudandus 
+              европейских,.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

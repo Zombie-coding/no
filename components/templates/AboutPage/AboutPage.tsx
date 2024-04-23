@@ -11,7 +11,7 @@ const AboutPage = () => {
     <section className={styles.about}>
       <div className="container">
         <h2 className={`${styles.about__title} ${darkModeClass}`}>
-          Ettevõttest
+          О компании
         </h2>
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>

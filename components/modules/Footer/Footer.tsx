@@ -80,7 +80,7 @@ const Footer = () => {
                   href="tel:+37255625799"
                   className={styles.footer__top__item__list__item__link}
                 >
-                  <span>Наш контактный телефон:</span>
+                  <span>Meie kontaktnumber:</span>
                   <span>+37255625799</span>
                   <span>
                     <PhoneSvg />
@@ -89,11 +89,11 @@ const Footer = () => {
               </li>
               <li className={styles.footer__top__item__list__item}>
                 <a
-                  href="mailto:info@zapchasti.com.ru"
+                  href="voinikoo.ee@gmail.com"
                   className={styles.footer__top__item__list__item__link}
                 >
                   <span>E-mail:</span>
-                  <span>info@zapchasti.com.ru</span>
+                  <span>voinikoo.ee@gmail.com</span>
                   <span>
                     <MailSvg />
                   </span>
@@ -106,7 +106,7 @@ const Footer = () => {
           <div className={styles.footer__bottom__block}>
             <div className={styles.footer__bottom__block__left}>
               <h3 className={styles.footer__bottom__block__title}>
-                Мы принимаем к оплате:
+                Me aktsepteerime makseid:
               </h3>
               <ul className={styles.footer__bottom__block__pay}>
                 <li className={styles.footer__bottom__block__pay__item}>
@@ -125,13 +125,13 @@ const Footer = () => {
             </div>
             <div className={styles.footer__bottom__block__right}>
               <h3 className={styles.footer__bottom__block__title}>
-                Мы в соцсети:
+                Oleme sotsiaalmeedias:
               </h3>
               <ul className={styles.footer__bottom__block__social}>
                 <li className={styles.footer__bottom__block__social__item}>
                   <a
                     href="#"
-                    className={styles.footer__bottom__block__social__item_vk}
+                    className={styles.footer__}
                   />
                 </li>
                 <li className={styles.footer__bottom__block__social__item}>
@@ -158,7 +158,7 @@ const Footer = () => {
           {isMedia750 && <FooterLogo />}
           <div className={styles.footer__bottom__block}>
             <p className={styles.footer__bottom__block__copyright}>
-              © «Детали для газовых котлов» 2021.
+              © «Voinikoo.ee» 2024.
             </p>
           </div>
         </div>

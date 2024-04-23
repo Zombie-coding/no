@@ -36,7 +36,7 @@ const HeaderBottom = () => {
               <span
                 className={`${styles.header__logo__link__text} ${darkModeClass}`}
               >
-                Elektroonika ja Kodukaubandus
+                Voinikoo.ee
               </span>
             </a>
           </Link>

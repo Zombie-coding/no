@@ -16,7 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в
+              Ассортимент Vokinikoo - teie usaldusväärne partner; включает в
               себя запасные части для котлов Arderia, Ariston, Baxi, Beretta,
               Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
               Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,

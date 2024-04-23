@@ -61,7 +61,7 @@ const ProfileDropDown = forwardRef<HTMLDivElement, IWrappedComponentProps>(
                   <span
                     className={`${styles.profile__dropdown__item__text} ${darkModeClass}`}
                   >
-                    Выйти
+                    Logi välja
                   </span>
                   <span
                     className={`${styles.profile__dropdown__item__svg} ${darkModeClass}`}

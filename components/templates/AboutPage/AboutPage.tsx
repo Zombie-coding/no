@@ -16,7 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает.
+              Ассортимент интернет-магазина &quot;АкваТермикс&quot;.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

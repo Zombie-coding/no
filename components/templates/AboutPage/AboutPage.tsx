@@ -21,13 +21,6 @@ const AboutPage = () => {
               котлов. 99% запчастей представленных на сайте постоянно
               поддерживаются в наличии на нашем складе.
             </p>
-            <p>
-              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в
-              себя запасные части для котлов Arderia, Ariston, Baxi, Beretta,
-              Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
-              Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
-              Saunier Duval, Sime, Tiberis, Vaillant, Viessmann, Westen.
-            </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>
             <img src="/img/about-img.png" alt="image-1" />

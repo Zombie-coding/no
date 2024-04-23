@@ -68,7 +68,7 @@ const Footer = () => {
                 <Link href="/contacts" passHref legacyBehavior>
                   <a className={styles.footer__top__item__list__item__link}>
                     <span>Meie aadress:</span>
-                    <span> Tallinn mnt 101, 10112 Tallin</span>
+                    <span> Tallinn mnt 101, 10112 Tallinn</span>
                     <span>
                       <MarkerSvg />
                     </span>

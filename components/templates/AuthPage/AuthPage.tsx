@@ -83,7 +83,6 @@ const AuthPage = () => {
                 className={`${styles.switch__description} ${styles.description} ${darkModeClass}`}
               >
                 Чтобы оставаться на связи с нами, пожалуйста, войдите под своей
-                личной информацией
               </p>
             </>
           )}

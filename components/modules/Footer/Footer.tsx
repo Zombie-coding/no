@@ -67,8 +67,8 @@ const Footer = () => {
               <li className={styles.footer__top__item__list__item}>
                 <Link href="/contacts" passHref legacyBehavior>
                   <a className={styles.footer__top__item__list__item__link}>
-                    <span>Наш адрес:</span>
-                    <span>г. Москва, ул. ... д....</span>
+                    <span>Meie aadress:</span>
+                    <span> Tallinn mnt 101, 10112 Tallinn</span>
                     <span>
                       <MarkerSvg />
                     </span>
@@ -77,11 +77,11 @@ const Footer = () => {
               </li>
               <li className={styles.footer__top__item__list__item}>
                 <a
-                  href="tel:+780955555555"
+                  href="tel:+37255625799"
                   className={styles.footer__top__item__list__item__link}
                 >
                   <span>Наш контактный телефон:</span>
-                  <span>+7(8095) 555-55-55</span>
+                  <span>+37255625799</span>
                   <span>
                     <PhoneSvg />
                   </span>

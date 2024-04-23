@@ -12,11 +12,20 @@ const AboutPage = () => {
       <div className="container">
         <h2 className={`${styles.about__title} ${darkModeClass}`}>
           Ettevõttest
-        </h2>
+       </h2>
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              АссортиментTere tulemast innovatsioonide maailma Vokinikoo juures! 
+              Компания &quot;АкваТермикс&quot; Tere tulemast innovatsioonide maailma Vokinikoo juures!, корейских и отечественных газовых и электрических
+              котлов. 99% запчастей представленных на сайте постоянно
+              поддерживаются в наличии на нашем складе.
+            </p>
+            <p>
+              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в
+              себя запасные части для котлов Arderia, Ariston, Baxi, Beretta,
+              Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
+              Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
+              Saunier Duval, Sime, Tiberis, Vaillant, Viessmann, Westen.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

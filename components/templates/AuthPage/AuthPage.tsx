@@ -77,13 +77,13 @@ const AuthPage = () => {
               <h2
                 className={`${styles.switch__title} ${styles.title} ${darkModeClass}`}
               >
-                Tervitame!
+                Добро пожаловать!dd
               </h2>
               <p
                 className={`${styles.switch__description} ${styles.description} ${darkModeClass}`}
               >
-                Et meiega ühendust hoida, logige sisse oma
-                isikuandmetega
+                Чтобы оставаться на связи с нами, пожалуйста, войдите под своей
+                личной информацией
               </p>
             </>
           )}
@@ -104,12 +104,12 @@ const AuthPage = () => {
               <h2
                 className={`${styles.switch__title} ${styles.title} ${darkModeClass}`}
               >
-                Hei, sõber!
+                Привет, друг!
               </h2>
               <p
                 className={`${styles.switch__description} ${styles.description} ${darkModeClass}`}
               >
-                Sisestage oma isikuandmed ja alustage oma teekonda koos meiega
+                Введите свои личные данные и начните путешествие с нами
               </p>
             </>
           )}

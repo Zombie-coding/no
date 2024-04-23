@@ -16,7 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              E-pood Voinikoo.ee &quot;АкваТермикс&quot; müüb elektroonikat ja kodupaubandus в
+              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в
               себя запасны.
             </p>
           </div>

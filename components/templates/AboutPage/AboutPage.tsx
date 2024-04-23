@@ -16,8 +16,8 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Etevõte &quot;Voinikoo&quot; esitab teile Esektri ja kodu kaudandus 
-              европейских, корейских и отечественных газовых и электрических
+              Etevõte &quot;Voinikoo&quot;европейских, корейских и отечественных 
+              газовых и электрических
               котлов. 99% запчастей представленных на сайте постоянно
               поддерживаются в наличии на нашем складе.
             </p>

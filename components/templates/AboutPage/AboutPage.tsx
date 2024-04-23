@@ -16,8 +16,10 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Ассортимент интернет-магазина &quot;АкваТермикс&quot;ddd
-              urgurug.
+              Etevõte &quot;Voinikoo&quot; esitab teile Esektri ja kodu kaudandus 
+              европейских, корейских и отечественных газовых и электрических
+              котлов. 99% запчастей представленных на сайте постоянно
+              поддерживаются в наличии на нашем складе.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

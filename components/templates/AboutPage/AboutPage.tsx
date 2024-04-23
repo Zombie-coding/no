@@ -16,12 +16,10 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Tere tulemast innovatsioonide maailma Vokinikoo juures! 
-              Meie valikust leiad laia valiku elektroonikat, 
-              varuosi ja kodutarbeid. Otsid siis viimast nutitelefoni, 
-              remondiosasid oma seadmele või funktsionaalseid esemeid koju, 
-              oleme siin, 
-              et aidata sul oma ideid ellu viia!
+              Компания &quot;АкваТермикс&quot; предлагает Вам запасные части для
+              европейских, корейских и отечественных газовых и электрических
+              котлов. 99% запчастей представленных на сайте постоянно
+              поддерживаются в наличии на нашем складе.
             </p>
             <p>
               Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в

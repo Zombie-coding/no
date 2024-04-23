@@ -40,7 +40,7 @@ const OrderItem = ({ item }: { item: IShoppingCartItem }) => {
         {isMedia1160 &&
           (item.in_stock === 0 ? (
             <span className={styles.order__cart__list__item__empty}>
-              Нет на складе
+              Laos on otsas
             </span>
           ) : (
             <CartItemCounter
@@ -56,7 +56,7 @@ const OrderItem = ({ item }: { item: IShoppingCartItem }) => {
         {!isMedia1160 &&
           (item.in_stock === 0 ? (
             <span className={styles.order__cart__list__item__empty}>
-              Нет на складе
+              Laos on otsas
             </span>
           ) : (
             <CartItemCounter
@@ -70,7 +70,7 @@ const OrderItem = ({ item }: { item: IShoppingCartItem }) => {
         <span
           className={`${styles.order__cart__list__item__price} ${darkModeClass}`}
         >
-          {formatPrice(price)} P
+          {formatPrice(price)} €
         </span>
         <button
           className={styles.order__cart__list__item__delete}
@@ -82,7 +82,7 @@ const OrderItem = ({ item }: { item: IShoppingCartItem }) => {
               style={{ top: '-13px', left: '-30px', width: 25, height: 25 }}
             />
           ) : (
-            'Удалить'
+            'Kustuta'
           )}
         </button>
       </div>

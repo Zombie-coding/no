@@ -16,7 +16,10 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Etevõte "Voinikoo" pakub teile varuosi Euroopa, Korea ja kodumaised gaasi- ja elektrikateldete jaoks. 99% veebisaidil esitatud varuosadest hoitakse alati meie laos saadaval.
+              Tere tulemast innovatsioonide maailma Vokinikoo juures! 
+              Meie valikust leiad laia valiku elektroonikat, varuosi ja kodutarbeid. 
+              Otsid siis viimast nutitelefoni, remondiosasid oma seadmele või 
+              funktsionaalseid esemeid koju, oleme siin, et aidata sul oma ideid ellu viia!
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

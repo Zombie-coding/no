@@ -16,7 +16,9 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-               Voinikoo.
+              Компания &quot;АкваТермикс&quot;газовых и электрических
+              котлов.  постоянно
+              поддерживаются в наличии на нашем складе.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

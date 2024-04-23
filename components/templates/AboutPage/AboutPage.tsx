@@ -16,7 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Компания Vokinikoo - teie usaldusväärne partner tehnoloogia ja kodumugavuste maailmas. Meie eesmärk on tagada meie klientidele kõik vajalik: alates kõige kaasaegsemast elektroonikast kuni usaldusväärsete varuosadeni ja stiilsete sisekujunduselementideni. Meie missioon on muuta teie elu lihtsamaks, mugavamaks ja põnevamaks. Usaldage meid ja saate juurdepääsu parimatele tehnoloogiatele ja kodusele mugavusele!.
+              Компания Vokinikoo.
             </p>
             <p>
               Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в

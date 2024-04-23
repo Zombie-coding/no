@@ -16,7 +16,8 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Компания &quot;АкваТермикс&quot; Tere tulemast innovatsioonide maailma Vokinikoo juures!, корейских и отечественных газовых и электрических
+              Компания &quot;АкваТермикс&quot; предлагает Вам запасные части для
+              европейских, корейских и отечественных газовых и электрических
               котлов. 99% запчастей представленных на сайте постоянно
               поддерживаются в наличии на нашем складе.
             </p>

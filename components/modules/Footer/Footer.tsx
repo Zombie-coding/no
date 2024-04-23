@@ -31,7 +31,7 @@ const Footer = () => {
               )}
               {isMedia500 && (
                 <Accordion
-                  title="Интернет-магазин"
+                  title="E-pood"
                   titleClass={styles.footer__top__item__title}
                   arrowOpenClass={styles.open}
                 >
@@ -43,13 +43,13 @@ const Footer = () => {
             <div className={styles.footer__top__item}>
               {!isMedia500 && (
                 <>
-                  <h3 className={styles.footer__top__item__title}>Компания</h3>
+                  <h3 className={styles.footer__top__item__title}>Ettevõte</h3>
                   <CompanyContent />
                 </>
               )}
               {isMedia500 && (
                 <Accordion
-                  title="Компания"
+                  title="Kontaktid"
                   titleClass={styles.footer__top__item__title}
                   arrowOpenClass={styles.open}
                 >
@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.footer__top__item}>
-            <h3 className={styles.footer__top__item__title}>Контакты</h3>
+            <h3 className={styles.footer__top__item__title}>Kontaktid</h3>
             <ul
               className={`${styles.footer__top__item__list} ${styles.footer__top__item__contacts}`}
             >

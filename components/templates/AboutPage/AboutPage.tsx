@@ -16,7 +16,8 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Voinikoo E-pood &quot;voinikoo.ee&quot; meie sppnserid
+              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в
+              себя запасные части для котлов Arderia, Ariston, Baxi, Beretta,
               Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
               Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
               Saunier Duval, Sime, Tiberis, Vaillant, Viessmann, Westen.

@@ -8,10 +8,10 @@ const CompanyContent = () => (
         <a className={styles.footer__top__item__list__item__link}>Ettevõtte</a>
       </Link>
     </li>
-    <li className={styles.footer__top__item__list__item}>
+     <li className={styles.footer__top__item__list__item}>
       <Link href="/contacts" passHref legacyBehavior>
         <a className={styles.footer__top__item__list__item__link}>
-          Tagaside
+          Обратная связь
         </a>
       </Link>
     </li>

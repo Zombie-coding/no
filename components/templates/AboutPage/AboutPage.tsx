@@ -11,12 +11,15 @@ const AboutPage = () => {
     <section className={styles.about}>
       <div className="container">
         <h2 className={`${styles.about__title} ${darkModeClass}`}>
-          Ettevõttest
+          О компании
         </h2>
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Компания.
+              Компания &quot;АкваТермикс&quot; предлагает Вам запасные части для
+              европейских, корейских и отечественных газовых и электрических
+              котлов. 99% запчастей представленных на сайте постоянно
+              поддерживаются в наличии на нашем складе.
             </p>
             <p>
               Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в

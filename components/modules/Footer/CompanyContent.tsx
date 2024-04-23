@@ -5,10 +5,10 @@ const CompanyContent = () => (
   <ul className={styles.footer__top__item__list}>
     <li className={styles.footer__top__item__list__item}>
       <Link href="/about" passHref legacyBehavior>
-        <a className={styles.footer__top__item__list__item__link}>Ettevõtte</a>
+        <a className={styles.footer__top__item__list__item__link}>О компании</a>
       </Link>
     </li>
-     <li className={styles.footer__top__item__list__item}>
+    <li className={styles.footer__top__item__list__item}>
       <Link href="/contacts" passHref legacyBehavior>
         <a className={styles.footer__top__item__list__item__link}>
           Обратная связь

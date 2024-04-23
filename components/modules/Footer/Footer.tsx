@@ -24,7 +24,7 @@ const Footer = () => {
               {!isMedia500 && (
                 <>
                   <h3 className={styles.footer__top__item__title}>
-                    Vebipood
+                    Интернет-магазин
                   </h3>
                   <OnlineStoreContent />
                 </>

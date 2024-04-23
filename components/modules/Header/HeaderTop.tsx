@@ -42,7 +42,7 @@ const HeaderTop = () => {
                   className={`${styles.header__nav__list__item__link} ${darkModeClass}`}
                   onClick={closePopup}
                 >
-                  Доставка и оплата
+                  Tarne ja maksmine
                 </a>
               </Link>
             </li>
@@ -52,7 +52,7 @@ const HeaderTop = () => {
                   className={`${styles.header__nav__list__item__link} ${darkModeClass}`}
                   onClick={closePopup}
                 >
-                  О компании
+                  Ettevõttest
                 </a>
               </Link>
             </li>
@@ -62,7 +62,7 @@ const HeaderTop = () => {
                   className={`${styles.header__nav__list__item__link} ${darkModeClass}`}
                   onClick={closePopup}
                 >
-                  Каталог
+                  Kataloog
                 </a>
               </Link>
             </li>
@@ -72,7 +72,7 @@ const HeaderTop = () => {
                   className={`${styles.header__nav__list__item__link} ${darkModeClass}`}
                   onClick={closePopup}
                 >
-                  Контакты
+                  Kontaktid
                 </a>
               </Link>
             </li>
@@ -82,7 +82,7 @@ const HeaderTop = () => {
                   className={`${styles.header__nav__list__item__link} ${darkModeClass}`}
                   onClick={closePopup}
                 >
-                  Оптовым покупателям
+                  Hulgimüük kliendid
                 </a>
               </Link>
             </li>

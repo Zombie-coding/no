@@ -30,13 +30,13 @@ const PartTabs = () => {
           className={showDescription ? styles.active : ''}
           onClick={handleShowDescription}
         >
-          Описание
+          Kirjeldus
         </button>
         <button
           className={showCompatibility ? styles.active : ''}
           onClick={handleShowCompatibility}
         >
-          Совместимость
+          Ühilduvus
         </button>
       </div>
       {showDescription && (

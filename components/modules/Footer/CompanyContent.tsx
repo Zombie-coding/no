@@ -18,7 +18,7 @@ const CompanyContent = () => (
     <li className={styles.footer__top__item__list__item}>
       <Link href="/wholesale-buyers" passHref legacyBehavior>
         <a className={styles.footer__top__item__list__item__link}>
-          ОHHulgimüük kliendid
+          HHulgimüük kliendid
         </a>
       </Link>
     </li>

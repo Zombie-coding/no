@@ -16,6 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
+              Voinikoo E-pood &quot;voinikoo.ee&quot; meie sppnserid
               Arderia, Ariston, Baxi, Beretta,
               Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
               Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,

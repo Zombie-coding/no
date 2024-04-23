@@ -16,17 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Ettevõtte &quot;Voinikoo.ee&quot; предлагает Вам запасные части для
-              европейских, корейских и отечественных газовых и электрических
-              котлов. 99% запчастей представленных на сайте постоянно
-              поддерживаются в наличии на нашем складе.
-            </p>
-            <p>
-              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в
-              себя запасные части для котлов Arderia, Ariston, Baxi, Beretta,
-              Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
-              Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
-              Saunier Duval, Sime, Tiberis, Vaillant, Viessmann, Westen.
+              Ettevõtte &quot;Voinikoo.ee&quot;
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

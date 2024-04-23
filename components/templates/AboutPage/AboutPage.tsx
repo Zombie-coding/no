@@ -16,12 +16,11 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Tere tulemast innovatsioonide maailma Vokinikoo juures! 
-              Meie valikust leiad laia valiku elektroonikat, varuosi ja kodutarbeid. 
-              Otsid siis viimast nutitelefoni, remondiosasid oma seadmele või funktsionaalseid esemeid koju, oleme siin, et aidata sul oma ideid ellu viia!
-              Vokinikoo - teie usaldusväärne partner tehnoloogia ja kodumugavuste maailmas. Meie eesmärk on tagada meie klientidele kõik vajalik: alates kõige kaasaegsemast elektroonikast kuni usaldusväärsete varuosadeni ja stiilsete sisekujunduselementideni. 
-              Meie missioon on muuta teie elu lihtsamaks, mugavamaks ja põnevamaks. 
-              Usaldage meid ja saate juurdepääsu parimatele tehnoloogiatele ja kodusele mugavusele!
+              Ассортимент интернет-магазина &quot;АкваТермикс&quot; включает в
+              себя запасные части для котлов Arderia, Ariston, Baxi, Beretta,
+              Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
+              Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
+              Saunier Duval, Sime, Tiberis, Vaillant, Viessmann, Westen.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

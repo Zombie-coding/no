@@ -16,10 +16,7 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Etevõte &quot;Voinikoo&quot;европейских, корейских и отечественных 
-              газовых и электрических
-              котлов. 99% запчастей представленных на сайте постоянно
-              поддерживаются в наличии на нашем складе.
+              Etevõte "Voinikoo" pakub teile varuosi Euroopa, Korea ja kodumaised gaasi- ja elektrikateldete jaoks. 99% veebisaidil esitatud varuosadest hoitakse alati meie laos saadaval.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

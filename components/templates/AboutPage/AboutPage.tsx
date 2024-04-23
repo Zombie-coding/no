@@ -20,7 +20,7 @@ const AboutPage = () => {
               себя запасные части для котлов Arderia, Ariston, Baxi, Beretta,
               Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
               Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
-              Saunier Duval, Sime, Tiberis, Vaillant, Viessmann, Westen.
+              Saunier Duval, Sime, Tiberis, Vaillant, Viessmann.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

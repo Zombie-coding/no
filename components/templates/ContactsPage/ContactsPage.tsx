@@ -23,7 +23,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 <span>
                   Условия оптовых заказов решаются индивидуально по телефону:{' '}
                 </span>
-                <span>+37255625799</span>
+                <span>+7 (555) 55-55-555</span>
               </p>
               <p>
                 Либо опишите суть заказа в форме обртной связи и мы с вами
@@ -34,7 +34,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
             <ul className={`${styles.contacts__list} ${darkModeClass}`}>
               <li className={styles.contacts__list__title}>
                 <h3 className={darkModeClass}>
-                  Elektroonika ja kodukaubandus
+                  Магазин деталей для газовых котлов
                 </h3>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>

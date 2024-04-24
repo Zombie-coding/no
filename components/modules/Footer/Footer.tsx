@@ -77,11 +77,11 @@ const Footer = () => {
               </li>
               <li className={styles.footer__top__item__list__item}>
                 <a
-                  href="tel:+37255625799"
+                  href="tel:+372 55625799"
                   className={styles.footer__top__item__list__item__link}
                 >
                   <span>Meie kontaktnumber:</span>
-                  <span>+37255625799</span>
+                  <span>+372 55625799</span>
                   <span>
                     <PhoneSvg />
                   </span>

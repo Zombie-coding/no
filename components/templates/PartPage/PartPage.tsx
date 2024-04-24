@@ -70,7 +70,7 @@ const PartPage = () => {
               <span className={styles.part__info__stock}>
                 {boilerPart.in_stock > 0 ? (
                   <span className={styles.part__info__stock__success}>
-                    Есть на складе
+                    Laos olemas
                   </span>
                 ) : (
                   <span className={styles.part__info__stock__not}>

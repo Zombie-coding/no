@@ -25,17 +25,12 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 </span>
                 <span>+372 55625799</span>
               </p>
-              <p>
-                Või kirjeldage sisu tellimuse tagasisidese
-                свяжемся.
-              </p>
+              <p>Või kirjeldage sisu tellimuse tagasisidese свяжемся.</p>
             </div>
           ) : (
             <ul className={`${styles.contacts__list} ${darkModeClass}`}>
               <li className={styles.contacts__list__title}>
-                <h3 className={darkModeClass}>
-                  Elektroonika ja kodukaubandus
-                </h3>
+                <h3 className={darkModeClass}>Elektroonika ja kodukaubandus</h3>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
                 <span>Офис:</span>

@@ -11,13 +11,15 @@ const AboutPage = () => {
     <section className={styles.about}>
       <div className="container">
         <h2 className={`${styles.about__title} ${darkModeClass}`}>
-          Ettevõtte sponsorid
+          Ettevõttest
         </h2>
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
-              Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
+              "Tere tulemast innovatsioonide maailma Vokinikoo juures! Meie valikust leiad laia valiku elektroonikat, varuosi ja kodutarbeid. Otsid siis viimast nutitelefoni, remondiosasid oma seadmele või funktsionaalseid esemeid koju, oleme siin, et aidata sul oma ideid ellu viia!"
+            </p>
+            <p>
+              Vokinikoo - teie usaldusväärne partner tehnoloogia ja kodumugavuste maailmas. Meie eesmärk on tagada meie klientidele kõik vajalik: alates kõige kaasaegsemast elektroonikast kuni usaldusväärsete varuosadeni ja stiilsete sisekujunduselementideni. Meie missioon on muuta teie elu lihtsamaks, mugavamaks ja põnevamaks. Usaldage meid ja saate juurdepääsu parimatele tehnoloogiatele ja kodusele mugavusele!"
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

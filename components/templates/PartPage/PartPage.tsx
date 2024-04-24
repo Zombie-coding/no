@@ -74,12 +74,12 @@ const PartPage = () => {
                   </span>
                 ) : (
                   <span className={styles.part__info__stock__not}>
-                    Нет на складе
+                    Laos on otsas
                   </span>
                 )}
               </span>
               <span className={styles.part__info__code}>
-                Артикул: {boilerPart.vendor_code}
+                Num: {boilerPart.vendor_code}
               </span>
               <button
                 className={`${styles.part__info__btn} ${
@@ -98,9 +98,9 @@ const PartPage = () => {
                       {isInCart ? <CartHoverCheckedSvg /> : <CartHoverSvg />}
                     </span>
                     {isInCart ? (
-                      <span>Добавлено в карзину</span>
+                      <span>Lisatud ostukorvi</span>
                     ) : (
-                      <span>Положить в корзину</span>
+                      <span>Pane korvi</span>
                     )}
                   </>
                 )}
@@ -112,7 +112,7 @@ const PartPage = () => {
         {isMobile && (
           <div className={styles.part__accordion}>
             <div className={styles.part__accordion__inner}>
-              <PartAccordion title="Описание">
+              <PartAccordion title="Kirjeldus">
                 <div
                   className={`${styles.part__accordion__content} ${darkModeClass}`}
                 >
@@ -129,7 +129,7 @@ const PartPage = () => {
                 </div>
               </PartAccordion>
             </div>
-            <PartAccordion title="Совместимость">
+            <PartAccordion title="Ühilduvus">
               <div
                 className={`${styles.part__accordion__content} ${darkModeClass}`}
               >
@@ -144,7 +144,7 @@ const PartPage = () => {
         )}
         <div className={styles.part__bottom}>
           <h2 className={`${styles.part__title} ${darkModeClass}`}>
-            Вам понравится
+            Teile meeldib see
           </h2>
           <DashboardSlider
             goToPartPage

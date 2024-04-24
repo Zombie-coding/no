@@ -82,7 +82,7 @@ const AuthPage = () => {
               <p
                 className={`${styles.switch__description} ${styles.description} ${darkModeClass}`}
               >
-                Чтобы оставаться Sisestage oma isikuandmed
+                ЧSisestage oma isikuandmed ja alustage oma teekonda koos 
               </p>
             </>
           )}

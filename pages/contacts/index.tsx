@@ -5,13 +5,13 @@ import ContactsPage from '@/components/templates/ContactsPage/ContactsPage'
 import Breadcrumbs from '@/components/modules/Breadcrumbs/Breadcrumbs'
 
 function Contacts() {
-  const getDefaultTextGenerator = useCallback(() => 'Контакты', [])
+  const getDefaultTextGenerator = useCallback(() => 'Kontaktid', [])
   const getTextGenerator = useCallback((param: string) => ({}[param]), [])
 
   return (
     <>
       <Head>
-        <title>Аква Тепмикс | Контакты</title>
+        <title>Voinikoo | Kontaktid</title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

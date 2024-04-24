@@ -26,7 +26,8 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 <span>+37255625799</span>
               </p>
               <p>
-                Kirjeldage oma tellimus kontaktvormi kaudu ja me võtame teiega ühendust.
+                Kirjeldage oma tellimus kontaktvormi kaudu
+                ja me võtame teiega ühendust.
               </p>
             </div>
           ) : (

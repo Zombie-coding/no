@@ -248,7 +248,7 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
                 <FilterSvg />
               </span>
               <span className={styles.catalog__top__mobile_btn__text}>
-                Фильтр
+                Filter
               </span>
             </button>
             <FilterSelect setSpinner={setSpinner} />
@@ -288,7 +288,7 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
                     <CatalogItem item={item} key={item.id} />
                   ))
                 ) : (
-                  <span>Список товаров пуст...</span>
+                  <span>Toote nimekiri on tühi...</span>
                 )}
               </ul>
             )}

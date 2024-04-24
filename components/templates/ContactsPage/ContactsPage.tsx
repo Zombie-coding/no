@@ -21,7 +21,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
             <div className={`${styles.contacts__list} ${darkModeClass}`}>
               <p>
                 <span>
-                  Suurtellimuste tingimused otsustatakse individuaalselt telo teel.:{' '}
+                  Suurtellimuste tingimused otsustatakse indivi.:{' '}
                 </span>
                 <span>+37255625799</span>
               </p>

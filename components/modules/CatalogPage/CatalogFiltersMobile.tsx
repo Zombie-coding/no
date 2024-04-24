@@ -71,7 +71,7 @@ const CatalogFiltersMobile = ({
       <div className={styles.catalog__bottom__filters__inner}>
         <FiltersPopupTop
           resetBtnText="Nullida kõik"
-          title="Фильтры"
+          title="Filtrid"
           resetFilters={resetFilters}
           resetFilterBtnDisabled={resetFilterBtnDisabled}
           closePopup={closePopup}
@@ -84,7 +84,7 @@ const CatalogFiltersMobile = ({
             Tootja
           </button>
           <FiltersPopup
-            title="Производитель котлов"
+            title="Elektroonikatootja"
             resetFilterBtnDisabled={!isAnyBoilerManufacturerChecked}
             updateManufacturer={updateBoilerManufacturer}
             setManufacturer={setBoilerManufacturers}

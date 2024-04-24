@@ -7,14 +7,14 @@ import Breadcrumbs from '@/components/modules/Breadcrumbs/Breadcrumbs'
 
 function Order() {
   const { shouldLoadContent } = useRedirectByUserCheck()
-  const getDefaultTextGenerator = useCallback(() => 'Оформление заказа', [])
+  const getDefaultTextGenerator = useCallback(() => 'Tellimuse esitamine', [])
   const getTextGenerator = useCallback((param: string) => ({}[param]), [])
 
   return (
     <>
       <Head>
         <title>
-          Аква Тепмикс | {shouldLoadContent ? 'Оформление заказа' : ''}
+          Voinikoo | {shouldLoadContent ? 'Tellimuse esitamine' : ''}
         </title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

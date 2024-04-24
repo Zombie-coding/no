@@ -5,13 +5,13 @@ import Breadcrumbs from '@/components/modules/Breadcrumbs/Breadcrumbs'
 import { useCallback } from 'react'
 
 function ShippingPaymentPage() {
-  const getDefaultTextGenerator = useCallback(() => 'Доставка и оплата', [])
+  const getDefaultTextGenerator = useCallback(() => 'Tarne ja maksmine', [])
   const getTextGenerator = useCallback((param: string) => ({}[param]), [])
 
   return (
     <>
       <Head>
-        <title>Аква Тепмикс | Доставка и оплата</title>
+        <title>Voiikoo | Tarne ja maksmine</title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

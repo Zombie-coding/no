@@ -65,7 +65,7 @@ const PartPage = () => {
             <PartImagesList />
             <div className={styles.part__info}>
               <span className={`${styles.part__info__price} ${darkModeClass}`}>
-                {formatPrice(boilerPart.price || 0)} P
+                {formatPrice(boilerPart.price || 0)} €
               </span>
               <span className={styles.part__info__stock}>
                 {boilerPart.in_stock > 0 ? (

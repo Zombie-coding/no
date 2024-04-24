@@ -26,7 +26,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 <span>+7 (555) 55-55-555</span>
               </p>
               <p>
-                Või kirjeldage tellimuse sisu tagasiside обртной связи и мы с вами
+                Või kirjeldage tellimuse sisu tagasiside обртной связи и мы
                 свяжемся.
               </p>
             </div>

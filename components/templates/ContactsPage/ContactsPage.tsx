@@ -14,14 +14,14 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
     <section className={styles.contacts}>
       <div className="container">
         <h2 className={`${styles.contacts__title} ${darkModeClass}`}>
-          {isWholesaleBuyersPage ? 'Оптовым покупателям' : 'Контакты'}
+          {isWholesaleBuyersPage ? 'Hulgimüük kliendid' : 'Kontaktid'}
         </h2>
         <div className={styles.contacts__inner}>
           {isWholesaleBuyersPage ? (
             <div className={`${styles.contacts__list} ${darkModeClass}`}>
               <p>
                 <span>
-                  Условия оптовых заказов решаются индивидуально по телефону:{' '}
+                  Suurtellimuste tingimused otsustatakse individuaalselt telefoni teel.:{' '}
                 </span>
                 <span>+7 (555) 55-55-555</span>
               </p>

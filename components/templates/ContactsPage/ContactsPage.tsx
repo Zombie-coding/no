@@ -21,7 +21,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
             <div className={`${styles.contacts__list} ${darkModeClass}`}>
               <p>
                 <span>
-                  Условия оптовых заказов решаются индивидуально по телефону:{' '}
+                  Suurtellimuste tingimused решаются индивидуально по телефону:{' '}
                 </span>
                 <span>+7 (555) 55-55-555</span>
               </p>

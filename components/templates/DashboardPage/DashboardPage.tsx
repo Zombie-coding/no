@@ -97,10 +97,14 @@ const DashboardPage = () => {
           <h3
             className={`${styles.dashboard__parts__title} ${styles.dashboard__about__title} ${darkModeClass}`}
           >
-          Ettevõtte kohta
+            Ettevõtte kohta
           </h3>
           <p className={`${styles.dashboard__about__text} ${darkModeClass}`}>
-            Tere tulemast innovatsioonide maailma Vokinikoo juures! Meie valikust leiad laia valiku elektroonikat, varuosi ja kodutarbeid. Otsid siis viimast nutitelefoni, remondiosasid oma seadmele või funktsionaalseid esemeid koju, oleme siin, et aidata sul oma ideid ellu viia!
+            Tere tulemast innovatsioonide maailma Vokinikoo juures! Meie
+            valikust leiad laia valiku elektroonikat, varuosi ja kodutarbeid.
+            Otsid siis viimast nutitelefoni, remondiosasid oma seadmele või
+            funktsionaalseid esemeid koju, oleme siin, et aidata sul oma ideid
+            ellu viia!
           </p>
         </div>
       </div>

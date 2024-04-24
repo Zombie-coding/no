@@ -24,10 +24,10 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                   Suurtellimuste tingimused otsustatakse telefoni teel.:{' '}
                 </span>
                 <span>+37255625799</span>
-              </p>
+             </p>
               <p>
-                Kirjeldage oma tellimus kontaktvormi kaudu
-                ja me võtame teiega ühendust.
+                Либо опишите суть заказа в форме обртной связи и мы с вами
+                свяжемся.
               </p>
             </div>
           ) : (

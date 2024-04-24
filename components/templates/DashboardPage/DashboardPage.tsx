@@ -79,17 +79,17 @@ const DashboardPage = () => {
           <BrandsSlider />
         </div>
         <h2 className={`${styles.dashboard__title} ${darkModeClass}`}>
-          Детали для газовых котлов
+          Elektroonika ja kodukaubandus
         </h2>
         <div className={styles.dashboard__parts}>
           <h3 className={`${styles.dashboard__parts__title} ${darkModeClass}`}>
-            Хиты продаж
+            Müügihitid
           </h3>
           <DashboardSlider items={bestsellers.rows || []} spinner={spinner} />
         </div>
         <div className={styles.dashboard__parts}>
           <h3 className={`${styles.dashboard__parts__title} ${darkModeClass}`}>
-            Новинки
+            Uuendused
           </h3>
           <DashboardSlider items={newParts.rows || []} spinner={spinner} />
         </div>
@@ -97,15 +97,10 @@ const DashboardPage = () => {
           <h3
             className={`${styles.dashboard__parts__title} ${styles.dashboard__about__title} ${darkModeClass}`}
           >
-            О компании
+          Ettevõtte kohta
           </h3>
           <p className={`${styles.dashboard__about__text} ${darkModeClass}`}>
-            Инструкции и схемы помогут разобраться в эксплуатации, определить
-            неисправность и правильно выбрать запчасть для ремонта Вашего
-            газового оборудования. Купить запчасть, деталь для ремонта газового
-            котла возможно в любом населенном пункте Российской Федерации:
-            Осуществляем доставку запчасти к газовым котлам в следующие города:
-            Москва, Сан
+            Tere tulemast innovatsioonide maailma Vokinikoo juures! Meie valikust leiad laia valiku elektroonikat, varuosi ja kodutarbeid. Otsid siis viimast nutitelefoni, remondiosasid oma seadmele või funktsionaalseid esemeid koju, oleme siin, et aidata sul oma ideid ellu viia!
           </p>
         </div>
       </div>

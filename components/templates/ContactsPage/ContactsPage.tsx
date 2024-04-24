@@ -60,7 +60,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 <span>E-mail:</span>
                 <span className={styles.contacts__list__item__mail}>
                   {!isMobile560 && <MailSvg />}{' '}
-                  <span>info@zapchasti.com.ru</span>
+                  <span>voinikoo.ee@gmail.com</span>
                 </span>
               </li>
             </ul>

@@ -14,7 +14,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
     <section className={styles.contacts}>
       <div className="container">
         <h2 className={`${styles.contacts__title} ${darkModeClass}`}>
-          {isWholesaleBuyersPage ? 'Оптовым покупателям' : 'Контакты'}
+          {isWholesaleBuyersPage ? 'Hulgimüük kliendid' : 'Kontaktid'}
         </h2>
         <div className={styles.contacts__inner}>
           {isWholesaleBuyersPage ? (

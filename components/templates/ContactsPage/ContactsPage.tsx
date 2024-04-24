@@ -33,28 +33,28 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 <h3 className={darkModeClass}>Elektroonika ja kodukaubandus</h3>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
-                <span>Офис:</span>
-                <span> г. Москва, ул. ... д....</span>
+                <span>Kontor:</span>
+                <span>Tallinn mnt 101, 10112 Tallinn</span>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
-                <span>Склад:</span>
-                <span> г. Москва, ул. ... д....</span>
+                <span>Ladu:</span>
+                <span> Tallinn mnt 101, 10112 Tallinn</span>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
-                <span>График работы офиса:</span>
-                <span> пн-пс: с 8:00 до 22:00</span>
+                <span>Kontori ajakava:</span>
+                <span> E-p: 8:00 kuni 22:00</span>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
-                <span>Наш контактный телефон:</span>
-                <span> +7(8095) 555-55-55</span>
+                <span>Meie kontaktnumber:</span>
+                <span> +37255625799</span>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
-                <span>Время приемок завок:</span>
-                <span> Пн-Вс: с 8:00 до 22:00</span>
+                <span>Pakkumiste vastuvõtmise aeg:</span>
+                <span>E-p: 8:00 kuni 22:00</span>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
-                <span>Прием заказов электронным способом на сайте:</span>
-                <span> круглосуточно</span>
+                <span>Tellimuste elektrooniline vastuvõtmine veebilehel:</span>
+                <span> 24/7</span>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
                 <span>E-mail:</span>

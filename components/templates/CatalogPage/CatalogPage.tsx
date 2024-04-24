@@ -226,7 +226,7 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
           <AnimatePresence>
             {isAnyPartsManufacturerChecked && (
               <ManufacturersBlock
-                title="Производитель запчастей:"
+                title="Populaarseimad tooted:"
                 event={updatePartsManufacturer}
                 manufacturersList={partsManufacturers}
               />

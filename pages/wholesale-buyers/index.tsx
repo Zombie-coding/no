@@ -5,13 +5,13 @@ import Layout from '@/components/layout/Layout'
 import Breadcrumbs from '@/components/modules/Breadcrumbs/Breadcrumbs'
 
 function WholesaleBuyers() {
-  const getDefaultTextGenerator = useCallback(() => 'Оптовым покупателям', [])
+  const getDefaultTextGenerator = useCallback(() => 'Hulgimüük kliendid', [])
   const getTextGenerator = useCallback((param: string) => ({}[param]), [])
 
   return (
     <>
       <Head>
-        <title>Аква Термикс | Оптовым покупателям</title>
+        <title>Voinikoo | Hulgimüük kliendid</title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

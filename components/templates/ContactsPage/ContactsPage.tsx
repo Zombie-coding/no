@@ -25,7 +25,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 </span>
                 <span>+372 55625799</span>
               </p>
-              <p>Või kirjeldage sisu tellimuse tagasisidese свяжемся.</p>
+              <p>Või kirjeldage sisu tellimuse tagasisidese.</p>
             </div>
           ) : (
             <ul className={`${styles.contacts__list} ${darkModeClass}`}>

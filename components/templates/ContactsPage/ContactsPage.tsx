@@ -23,7 +23,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
                 <span>
                   Suurtellimuste tingimused otsustatakse telefoni teel:{' '}
                 </span>
-                <span>+7 (555) 55-55-555</span>
+                <span>+372 55625799</span>
               </p>
               <p>
                 Või kirjeldage sisu tellimuse tagasisidese обртной связи и мы

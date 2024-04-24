@@ -238,7 +238,7 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
               disabled={resetFilterBtnDisabled}
               onClick={resetFilters}
             >
-              Сбросить фильтр
+              Reset Filter
             </button>
             <button
               className={styles.catalog__top__mobile_btn}

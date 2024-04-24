@@ -46,7 +46,7 @@ const ContactsPage = ({ isWholesaleBuyersPage = false }) => {
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
                 <span>Meie kontaktnumber:</span>
-                <span> +37255625799</span>
+                <span> +372 55625799</span>
               </li>
               <li className={`${styles.contacts__list__item} ${darkModeClass}`}>
                 <span>Pakkumiste vastuvõtmise aeg:</span>

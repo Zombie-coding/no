@@ -7,7 +7,7 @@ export const showAuthError = (error: unknown) => {
 
   if (axiosError.response) {
     if (axiosError.response.status === HTTPStatus.UNAUTHORIZED) {
-      toast.error('Неверное имя пользователя или пароль')
+      toast.error('Vale kasutajanimi või salasõna')
       return
     }
   }

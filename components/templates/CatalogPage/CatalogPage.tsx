@@ -211,13 +211,13 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
     <section className={styles.catalog}>
       <div className={`container ${styles.catalog__container}`}>
         <h2 className={`${styles.catalog__title} ${darkModeClass}`}>
-          Каталог товаров
+          Kaubakataloog
         </h2>
         <div className={`${styles.catalog__top} ${darkModeClass}`}>
           <AnimatePresence>
             {isAnyBoilerManufacturerChecked && (
               <ManufacturersBlock
-                title="Производитель котлов:"
+                title="Elektroonika ja Kodukaubandus:"
                 event={updateBoilerManufacturer}
                 manufacturersList={boilerManufacturers}
               />

@@ -14,7 +14,7 @@ function Catalog({ query }: { query: IQueryParams }) {
   return (
     <>
       <Head>
-        <title> Voinikoo.ee| {shouldLoadContent ? 'Kataloog' : ''}</title>
+        <title> Voinikoo | {shouldLoadContent ? 'Kataloog' : ''}</title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

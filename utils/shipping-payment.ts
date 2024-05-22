@@ -34,5 +34,4 @@ Erakliendile toimetame paki kätte üleandmise päevale järgneva kolme päeva j
 Esmaspäevast reedeni toimetame pakke kätte ajavahemikus kell 8–20, laupäeviti kell 10–16.
 
 Ärikliendile (juriidilisest isikust saajale) toimetame paki kätte järgmisel tööpäeval ilma ette helistamata, esmaspäevast reedeni kell 8–17. Lisatasu eest ka laupäeval kell 10–16.
-Varajase kulleriga toimetame 33 suuremas Eesti linnas paki kätte esmaspäevast reedeni ajavahemikus kell 8–10.
-Стоимость курьерской доставки - от 59 до 150 грн в зависимости от населенного пункта.`
+Varajase kulleriga toimetame 33 suuremas Eesti linnas paki kätte esmaspäevast reedeni ajavahemikus kell 8–10.`

@@ -17,7 +17,7 @@ export const boilerManufacturers = [
   'Saunier Duval',
   'Buderus',
   'Strategist',
-  'Henry',
+  'Apple',
   'Northwest',
 ].map(createManufacturerCheckboxObj)
 
@@ -31,7 +31,7 @@ export const partsManufacturers = [
   'Lesly',
   'Radian',
   'Gasoline',
-  'Croatia',
+  'Arvuti',
 ].map(createManufacturerCheckboxObj)
 
 const checkPriceFromQuery = (price: number) =>

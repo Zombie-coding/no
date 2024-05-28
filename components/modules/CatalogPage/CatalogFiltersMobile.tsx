@@ -100,7 +100,7 @@ const CatalogFiltersMobile = ({
             className={`${styles.filters__manufacturer__btn} ${darkModeClass}`}
             onClick={handleOpenParts}
           >
-            Varuosade tootja
+            Tooded
           </button>
           <FiltersPopup
             title="Varuosade tootja"

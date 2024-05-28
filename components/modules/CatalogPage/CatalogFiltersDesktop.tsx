@@ -63,7 +63,7 @@ const CatalogFiltersDesktop = ({
       <div className={styles.filters__boiler_manufacturers}>
         <FilterManufacturerAccordion
           manufacturersList={partsManufacturers}
-          title="Varuosade tootja"
+          title="Tooded"
           updateManufacturer={updatePartsManufacturer}
           setManufacturer={setPartsManufacturers}
         />

@@ -103,7 +103,7 @@ const CatalogFiltersMobile = ({
             Tooded
           </button>
           <FiltersPopup
-            title="Varuosade tootja"
+            title="Tooded"
             resetFilterBtnDisabled={!isAnyPartsManufacturerChecked}
             updateManufacturer={updatePartsManufacturer}
             setManufacturer={setPartsManufacturers}

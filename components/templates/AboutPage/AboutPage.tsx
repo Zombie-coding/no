@@ -16,8 +16,8 @@ const AboutPage = () => {
         <div className={styles.about__inner}>
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
-              Bosch, Buderus, Chaffoteaux, De Dietrich, Demrad, Electrolux,
-              Ferroli, Fondital, Immergas, Junkers, Koreastar, Nova Florida,
+              Bosch, Gopro, Garmin, Apple, Lenovo, HP,
+              Dell, Samsung, Asus, Polar, Motorola, Xiaomi,
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

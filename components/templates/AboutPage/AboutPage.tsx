@@ -17,7 +17,7 @@ const AboutPage = () => {
           <div className={`${styles.about__info} ${darkModeClass}`}>
             <p>
               Bosch, Gopro, Garmin, Apple, Lenovo, HP,
-              Dell, Samsung, Asus, Polar, Motorola, Xiaomi,
+              Dell, Samsung, Asus, Polar, Motorola, Xiaomi.
             </p>
           </div>
           <div className={`${styles.about__img} ${styles.about__img__top}`}>

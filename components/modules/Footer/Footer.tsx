@@ -130,7 +130,7 @@ const Footer = () => {
               <ul className={styles.footer__bottom__block__social}>
                 <li className={styles.footer__bottom__block__social__item}>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/profile.php?id=61555240629816"
                     className={styles.footer__bottom__block__social__item_}
                   />
                 </li>

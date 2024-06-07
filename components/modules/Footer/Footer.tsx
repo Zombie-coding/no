@@ -124,37 +124,40 @@ const Footer = () => {
               </ul>
             </div>
             <div className={styles.footer__bottom__block__right}>
-              <h3 className={styles.footer__bottom__block__title}>
-                Oleme sotsiaalmeedias:
-              </h3>
-              <ul className={styles.footer__bottom__block__social}>
-                <li className={styles.footer__bottom__block__social__item}>
-                  <a
-                    href="#"
-                    className={styles.footer__bottom__block__social__item_}
-                  />
-                </li>
-                <li className={styles.footer__bottom__block__social__item}>
-                  <a
-                    href="#"
-                    className={styles.footer__bottom__block__social__item_fb}
-                  />
-                </li>
-                <li className={styles.footer__bottom__block__social__item}>
-                  <a
-                    href="#"
-                    className={styles.footer__bottom__block__social__item_inst}
-                  />
-                </li>
-                <li className={styles.footer__bottom__block__social__item}>
-                  <a
-                    href="#"
-                    className={styles.footer__bottom__block__social__item_ytb}
-                  />
-                </li>
-              </ul>
-            </div>
-          </div>
+  <h3 className={styles.footer__bottom__block__title}>
+    Oleme sotsiaalmeedias:
+  </h3>
+  <ul className={styles.footer__bottom__block__social}>
+    <li className={styles.footer__bottom__block__social__item}>
+      <a
+        href="#"
+        className={styles.footer__bottom__block__social__item_}
+        aria-label="Social Media"
+      ></a>
+    </li>
+    <li className={styles.footer__bottom__block__social__item}>
+      <a
+        href="#"
+        className={styles.footer__bottom__block__social__item_fb}
+        aria-label="Facebook"
+      ></a>
+    </li>
+    <li className={styles.footer__bottom__block__social__item}>
+      <a
+        href="#"
+        className={styles.footer__bottom__block__social__item_inst}
+        aria-label="Instagram"
+      ></a>
+    </li>
+    <li className={styles.footer__bottom__block__social__item}>
+      <a
+        href="#"
+        className={styles.footer__bottom__block__social__item_ytb}
+        aria-label="YouTube"
+      ></a>
+    </li>
+  </ul>
+</div>
           {isMedia750 && <FooterLogo />}
           <div className={styles.footer__bottom__block}>
             <p className={styles.footer__bottom__block__copyright}>

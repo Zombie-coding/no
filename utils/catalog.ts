@@ -10,15 +10,19 @@ const createManufacturerCheckboxObj = (title: string) => ({
 })
 
 export const boilerManufacturers = [
-  'Ariston',
-  'Chaffoteaux&Maury',
-  'Baxi',
+  'Polar',
+  'Lenovo',
+  'Dell',
   'Garmin',
   'LaCie',
   'Samsung',
   'Gopro',
   'Apple',
-  'Northwest',
+  'Suunto',
+  'Leatherman',
+  'Nike',
+  'New Balance',
+  'Loctite',
 ].map(createManufacturerCheckboxObj)
 
 export const partsManufacturers = [

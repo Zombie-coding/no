@@ -11,18 +11,13 @@ const createManufacturerCheckboxObj = (title: string) => ({
 
 export const boilerManufacturers = [
   'Polar',
-  'Lenovo',
-  'Dell',
   'Garmin',
   'LaCie',
   'Samsung',
   'Gopro',
   'Apple',
-  'Suunto',
   'Leatherman',
   'Nike',
-  'New Balance',
-  'Loctite',
 ].map(createManufacturerCheckboxObj)
 
 export const partsManufacturers = [
@@ -34,10 +29,7 @@ export const partsManufacturers = [
   'Kaablid ja juhtmed',
   'Aksessuaarid',
   'Matkatarbed',
-  'Riietus',
-  'multitööriist',
   'Mängud',
-  'Raamatud',
 ].map(createManufacturerCheckboxObj)
 
 const checkPriceFromQuery = (price: number) =>

@@ -26,16 +26,16 @@ export const boilerManufacturers = [
 ].map(createManufacturerCheckboxObj)
 
 export const partsManufacturers = [
-  'Azure',
-  'Gloves',
-  'Cambridgeshire',
-  'Salmon',
-  'Montana',
-  'Sensor',
-  'Lesly',
-  'Radian',
-  'Gasoline',
+  'Kaamera',
+  'Nutitelefonid',
+  'Kellad',
+  'Mälu',
   'Arvuti',
+  'Matkatarbed',
+  'Riietus',
+  'multitööriist',
+  'Mängud',
+  'Raamatud',
 ].map(createManufacturerCheckboxObj)
 
 const checkPriceFromQuery = (price: number) =>

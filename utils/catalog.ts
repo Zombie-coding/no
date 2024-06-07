@@ -31,6 +31,7 @@ export const partsManufacturers = [
   'Kellad',
   'Mälu',
   'Arvuti',
+  'Aksessuaarid',
   'Matkatarbed',
   'Riietus',
   'multitööriist',

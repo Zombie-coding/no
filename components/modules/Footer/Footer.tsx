@@ -148,7 +148,7 @@ const Footer = () => {
                 </li>
                 <li className={styles.footer__bottom__block__social__item}>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/channel/UCvaNdzi2b2hQYui_S3smaqw"
                     className={styles.footer__bottom__block__social__item_ytb}
                   />
                 </li>
